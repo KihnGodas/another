@@ -15,11 +15,11 @@
     cursor: pointer;
     color: white;
     padding: 10px;
-    
+    margin-bottom: 20px;
     font-weight: bold;
 }
 .header button:hover{
-    background-color: rgb(246, 150, 121);
+    background-color: sandybrown;
     transition: 0.5s;
 
 }
@@ -29,9 +29,32 @@
     margin: auto;
 }
 .product{
+  
     display: flex;
-    justify-content: baseline;}
-    
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  
+}
+.price {
+    margin-top: 10px;
+    text-align: center;
+}
 .container{
+    width: 30%;
     display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+.container button{
+    border: none;
+    
+}
+.container i{
+    font-size: 30px;
+}
+.product:nth-child(odd){
+    background-color: #bbbfbc;
 }
