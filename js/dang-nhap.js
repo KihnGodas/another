@@ -1,12 +1,14 @@
-let _userName = document.querySelector(".username").value;
-let _passWord = document.querySelector(".password").value;
-let test = [];
-function dangNhap(){
-    test = JSON.parse(localStorage.getItem("mang"));
-    let userName = test.tenDangNhap;
-    let password = test.matKhau;
-    if(_userName == userName && _passWord == password){
-        console.log("yay");
-        window.alert("yay")
+let test = JSON.parse(localStorage.getItem("mang"));
+let link = document.getElementById("link")
+let btn = document.querySelector(".btn");
+let check = document.querySelector(".check")
+
+btn.addEventListener("click", function () {
+  let _userName = document.querySelector(".username").value;
+  let _passWord = document.querySelector(".password").value;
+  for (let i = 0; i < test.length; i++) {
+    if (test[i].tenDangNhap == _userName && test[i].matKhau == _passWord) {
+        link.href = "homepage.html";
     }
-}
+  }
+});
