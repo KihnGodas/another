@@ -8,7 +8,8 @@ btn.addEventListener("click", function () {
   let _passWord = document.querySelector(".password").value;
   for (let i = 0; i < test.length; i++) {
     if (test[i].tenDangNhap == _userName && test[i].matKhau == _passWord) {
-        link.href = "homepage.html";
+        alert("aklsdjfqwerp")
+        window.location.href = "homepage.html"
     }
   }
 });

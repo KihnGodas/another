@@ -13,16 +13,21 @@
 <body>
     <div class="nav-bar">
     </div>
-    <div class="main">
-        <div class="product">
-            <img src="/img/product/982781e728cd54ec174a218e7fc99396.jpg" alt="">
-            <p></p>
-            <button>Xem thêm</button>
-        </div>
+    <div>
+        <select id="fill">
+            <option value="none">Tất cả</option>
+            <option value="food">Đồ ăn</option>
+            <option value="good">Đồ dùng</option>
+        </select>
+        <button onclick="checkType()">Lọc sản phẩm</button>
     </div>
+    <div class="main">
 
+    </div>
     <div class="top">
     </div>
+    
+    <script src="/js/product.js"></script>
     <script src="/js/nav-bar.js"></script>
     <script src="/js/back-to-top.js"></script>
 </body>
