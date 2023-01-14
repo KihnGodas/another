@@ -14,12 +14,6 @@ let arr = [
     a:"contact.html",
     name:"Liên hệ"
   },
-  {
-    a:"login.html",
-    name:" Đăng nhập"
-  },
-  
-  
 ];
 
 let navBar = document.querySelector(".nav-bar");
