@@ -4,21 +4,21 @@ let btn = document.querySelector(".btn");
 let check = document.querySelector(".check");
 
 
-btn.addEventListener("click", function () {
+btn.addEventListener("click", function (e) {
   let _userName = document.querySelector(".username").value;
   let _passWord = document.querySelector(".password").value;
   for (let i = 0; i < test.length; i++) {
     if (test[i].tenDangNhap == _userName && test[i].matKhau == _passWord) {
-        link.href = "login.html";
+        link.href = "homepage.html";
         let now = {
           userName: _userName,
           password: _passWord
         };
         localStorage.setItem("now",JSON.stringify(now));
     }
-    else if (test[i].tenDangNhap != _userName || test[i].matKhau != _passWord){
+    else{
       check.innerHTML = "<p>Bạn đã nhập sai tài khoản hoặc mật khẩu</p>"
+      
     }
   }
-
 });
