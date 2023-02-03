@@ -41,5 +41,6 @@ a:hover{
 .nav-bar-container{
     display: flex;
     justify-content: space-between;
-     background-color: darkgrey;
+    background-color: darkgrey;
+    margin-bottom: 30px;
 }

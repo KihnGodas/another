@@ -16,6 +16,13 @@
     margin-bottom: 30px;
     
 }
+.image{
+    width: 90%;
+    margin: 10px;
+}
+.image img{
+    width: 100%;
+}
 .main{
     width: 80%;
     margin: auto;
