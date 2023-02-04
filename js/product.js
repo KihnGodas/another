@@ -7,36 +7,36 @@ let listItem = [
         id : "1"
     },
     {
-        img:"/img/product/982781e728cd54ec174a218e7fc99396.jpg",
+        img:"img/product/b7c100c3682e6caccddc24d865a0d01e.jpeg",
         name :"Kẹo ngô",
         price:150,
         type: "food",
         id : "2"
     },
     {
-        img:"/img/product/meo-vang-chon-mut-va-banh-keo-an-toan-ngay-tet-thumb-620x620.jpg",
+        img:"img/product/index.jpg",
         price:200,
-        name : "Kẹo dứa",
+        name : "Kẹo dừa",
         type: "food",
         id : "3"
     },
     {
-        img:"/img/product/982781e728cd54ec174a218e7fc99396.jpg",
+        img:"img/product/dbded30259fadc1327322a5039683b88_tn.jpg",
         price:100,
         name: "Khăn trải bàn",
         type: "good",
         id : "4"
     },
     {
-        img:"/img/product/meo-vang-chon-mut-va-banh-keo-an-toan-ngay-tet-thumb-620x620.jpg",
+        img:"img/product/images.jpg",
         price: 300,
         name : "Kẹo chuối",
         type: "food",
         id : "5"
     },
     {
-        img:"/img/product/982781e728cd54ec174a218e7fc99396.jpg",
-        name : "Đĩa bầu dục bằng sứ",
+        img:"img/pexels-photo-4502965.jpeg",
+        name : "Đĩa sứ",
         price:500,
         type: "good",
         id : "6"
@@ -51,8 +51,8 @@ function showListItem (a){
             
             main.innerHTML += `   <div class="image">
                                     <a href="learn-more.html?id=${i.id}"><img src="${i.img}" alt=""></a> 
-                                    <p>${i.name}</p>
-                                    <p>${i.price}$</p>
+                                    <p class="item-name">${i.name}</p>
+                                    <p class="item-price">${i.price}.000</p>
         </div>`
         }
     }
@@ -93,10 +93,9 @@ function product() {
         <img src="${a.img}" alt=""></div>
         <div class="buy">
             <h1>${a.name}</h1>
-            <h2>${a.price}k VND</h2>
+            <h2>${a.price}.000 VND</h2>
             <button class="buy-now" onclick="buynow()">Mua ngay</button>
         </div>
-        
         `;
     }
 }

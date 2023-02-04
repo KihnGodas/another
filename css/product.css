@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
-
+    line-height: 1.5;
+}
+.body{
+    background-image: url("../img/12158371_SL-092420-35530-10.jpg");
 }
 .header{
     text-align: center;
@@ -11,7 +15,7 @@
     font-family: 'Oswald', sans-serif;
 }
 .choose{
-    width: 80%;
+    width: 79%;
     margin: auto;
     margin-bottom: 30px;
     
@@ -34,4 +38,11 @@
 }
 .product img{
     width: 100%;
+}
+.item-name{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+}  
+.item-price{
+    font-size: 20px;
 }

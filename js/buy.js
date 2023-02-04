@@ -16,7 +16,7 @@ function buynow(){
             if(iden == i.id){
                 let now ={
                     name:  `${i.name}`,
-                    price:  `${i.price}`
+                    price:  i.price
                 }
                a.push(now);
                localStorage.setItem("userCart",JSON.stringify(a));

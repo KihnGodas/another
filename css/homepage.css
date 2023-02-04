@@ -31,6 +31,7 @@
 }
 .active{
     background: green;
+    border-radius: 10px;
 }
 .img-slide{
     width: 100%;

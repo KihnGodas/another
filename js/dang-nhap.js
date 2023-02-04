@@ -18,7 +18,7 @@ btn.addEventListener("click", function (e) {
         localStorage.setItem("now",JSON.stringify(now));
     }
     else{
-      check.innerHTML = "<p>Bạn đã nhập sai tài khoản hoặc mật khẩu</p>"
+      document.querySelector(".check").innerHTML = "Bạn đã nhập sai tài khoản hoặc mật khẩu"
       e.preventDefault();
       
     }
