@@ -38,14 +38,17 @@
   
 }
 .price {
+    
     margin-top: 10px;
     text-align: center;
 }
+.price h2,p{
+    margin-left: 10px;
+}
 .container{
     width: 30%;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+    
+    text-align: right;
     padding: 20px;
 }
 .container button{

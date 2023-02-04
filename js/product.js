@@ -1,7 +1,7 @@
 let listItem = [
     {
         img:"/img/product/meo-vang-chon-mut-va-banh-keo-an-toan-ngay-tet-thumb-620x620.jpg",
-        price:"400",
+        price:20,
         name : "Khay mứt kẹo tết",
         type: "good",
         id : "1"
@@ -9,27 +9,27 @@ let listItem = [
     {
         img:"/img/product/982781e728cd54ec174a218e7fc99396.jpg",
         name :"Kẹo ngô",
-        price:"400",
+        price:150,
         type: "food",
         id : "2"
     },
     {
         img:"/img/product/meo-vang-chon-mut-va-banh-keo-an-toan-ngay-tet-thumb-620x620.jpg",
-        price:"300",
+        price:200,
         name : "Kẹo dứa",
         type: "food",
         id : "3"
     },
     {
         img:"/img/product/982781e728cd54ec174a218e7fc99396.jpg",
-        price:"420",
+        price:100,
         name: "Khăn trải bàn",
         type: "good",
         id : "4"
     },
     {
         img:"/img/product/meo-vang-chon-mut-va-banh-keo-an-toan-ngay-tet-thumb-620x620.jpg",
-        price:"400",
+        price: 300,
         name : "Kẹo chuối",
         type: "food",
         id : "5"
@@ -37,11 +37,12 @@ let listItem = [
     {
         img:"/img/product/982781e728cd54ec174a218e7fc99396.jpg",
         name : "Đĩa bầu dục bằng sứ",
-        price:"400",
+        price:500,
         type: "good",
         id : "6"
     },
 ];
+localStorage.setItem("product",JSON.stringify(listItem))
 let main = document.querySelector(".main")
 function showListItem (a){
     if(main){
