@@ -7,14 +7,14 @@
 }
 
 .nav-bar{
-  
+    
     padding: 20px;
     display: flex;
     width: 90%;
    
 }
 .nav-bar a{
-    
+    color: black;
     margin-left: 30px;
     text-decoration: none;
     font: 100 ;
@@ -45,11 +45,13 @@ a:hover{
 .nav-bar-container{
     display: flex;
     justify-content: space-between;
-    background-color: darkgrey;
+    background-color: rgba(255, 255, 255, 0.6);
     margin-bottom: 30px;
 }
 .login button{
     border: none;
     padding: 5px;
     cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid black;
 }

@@ -5,10 +5,12 @@
     padding: 0;
     line-height: 1.5;
 }
-.body{
-    background-image: url("../img/12158371_SL-092420-35530-10.jpg");
+body{
+    background-image: url("../img/product/21531050_6466383.jpg");
+    background-size: cover;
 }
 .header{
+    color: white;
     text-align: center;
     font-size: 30px;
     margin: 10px;
@@ -40,9 +42,11 @@
     width: 100%;
 }
 .item-name{
-    font-family: 'Inconsolata', monospace;
+    
     font-size: 30px;
+    font-weight: 700;
 }  
 .item-price{
     font-size: 20px;
+    font-weight: 700;
 }
