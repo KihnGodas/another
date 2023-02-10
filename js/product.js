@@ -95,7 +95,18 @@ function product() {
             <h1>${a.name}</h1>
             <h2>${a.price}.000 VND</h2>
             <button class="buy-now" onclick="buynow()">Mua ngay</button>
+            <div class="line"></div>
+            <div class="comment">
+            <div class="input">
+                <input class="message" type="text">
+                <button class="submit" onclick="submit()">Gửi</button>
+            </div>
+            <div class="showCmt">
+                
+            </div>
         </div>
+        </div>
+        
         `;
     }
 }
